@@ -36,29 +36,3 @@ echo "set mouse-=a" >> ~/.vimrc
 #IPTables
 resources/iptables.sh
 
-#sngrep
-resources/sngrep.sh
-
-#FusionPBX
-resources/fusionpbx.sh
-
-#PHP
-resources/php.sh
-
-#NGINX web server
-resources/nginx.sh
-
-#FreeSWITCH
-resources/switch.sh
-
-#Fail2ban
-resources/fail2ban.sh
-
-#Postgres
-resources/postgresql.sh
-
-#set the ip address
-server_address=$(hostname -I)
-
-#add the database schema, user and groups
-resources/finish.sh
